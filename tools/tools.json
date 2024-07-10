@@ -1,0 +1,10 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "description": "framework-arduinoespressif32@3.10004.210126"
+    }
+  ],
+  "default": "v1.0.0",
+  "latest": "v1.0.0"
+}

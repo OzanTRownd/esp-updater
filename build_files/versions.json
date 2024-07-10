@@ -1,0 +1,41 @@
+{
+  "versions": [
+    {
+      "version": "v1.0.0",
+      "toolVersion": "default",
+      "build_date": "2024-07-08",
+      "description": "Initial release",
+      "bootloader": "bootloader_qio_80m.bin",
+      "app0": "boot_app0.bin",
+      "offset_bootloader": "0x1000",
+      "offset_partitions": "0x8000",
+      "offset_app0": "0xe000",
+      "offset_firmware": "0x10000"
+    },
+    {
+      "version": "v1.1.0",
+      "toolVersion": "v1.0.0",
+      "build_date": "2024-07-15",
+      "description": "Bug fixes and improvements",
+      "bootloader": "bootloader_qio_80m.bin",
+      "app0": "boot_app0.bin",
+      "offset_bootloader": "0x1000",
+      "offset_partitions": "0x8000",
+      "offset_app0": "0xe000",
+      "offset_firmware": "0x10000"
+    },
+    {
+      "version": "v2.0.0",
+      "toolVersion": "latest",
+      "build_date": "2024-08-01",
+      "description": "Major feature update",
+      "bootloader": "bootloader_qio_80m.bin",
+      "app0": "boot_app0.bin",
+      "offset_bootloader": "0x1000",
+      "offset_partitions": "0x8000",
+      "offset_app0": "0xe000",
+      "offset_firmware": "0x10000"
+    }
+  ],
+  "last_used_version": "v1.0.0"
+}
